@@ -1,9 +1,9 @@
 controller_frequency: 10
 
 TrajectoryPlannerROS:
-  max_vel_x: 1.0 #0.5
-  min_vel_x: -0.1 #0.01
-  max_vel_theta: 1.57 #1.5
+  max_vel_x: 0.5 #1.0
+  min_vel_x: -1.0 #0.01 -  we want to set it to a large negative value because this enables the robotto back off when it needs to unstuck itself
+  max_vel_theta: 1.0 #1.57
 
   min_in_place_vel_theta: 0.314
 
